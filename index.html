@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quote Generator</title>
+</head>
+<body style="font-family:sans-serif;text-align:center;margin-top:50px;">
+  <h1>Random Quote</h1>
+  <p id="quote">Click the button</p>
+  <button onclick="newQuote()">New Quote</button>
+
+  <script>
+    const quotes = [
+      "Stay hungry, stay foolish.",
+      "Code. Sleep. Repeat.",
+      "Small steps every day.",
+      "Done is better than perfect."
+    ];
+
+    function newQuote() {
+      const q = quotes[Math.floor(Math.random()*quotes.length)];
+      document.getElementById("quote").innerText = q;
+    }
+  </script>
+</body>
+</html>
