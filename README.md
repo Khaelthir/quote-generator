@@ -11,4 +11,4 @@ A simple random quote generator built with HTML and JavaScript.
 Open index.html in your browser and click the button.
 
 ## Author
-Aryan
+Khaelthir
